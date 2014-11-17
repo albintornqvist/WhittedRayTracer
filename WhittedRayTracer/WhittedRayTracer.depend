@@ -1,0 +1,892 @@
+# depslib dependency file v1.0
+1413839087 source:d:\dokument\programmering\raytracerzz\raytracerzz\main.cpp
+	<iostream>
+	"lib/glm/glm/glm.hpp"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\_fixes.hpp
+	<cmath>
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\_vectorize.hpp
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_half.inl
+	"_detail.hpp"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_gentype.hpp
+	"type_size.hpp"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_size.hpp
+	<cstdlib>
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec.hpp
+	"type_gentype.hpp"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\_swizzle_func.hpp
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec1.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec2.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec3.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec4.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat.hpp
+	"type_gentype.hpp"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x2.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x3.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x4.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x2.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x3.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x4.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x2.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x3.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x4.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_trigonometric.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_exponential.hpp
+	"func_exponential.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_exponential.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_common.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_packing.hpp
+	"func_packing.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_packing.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_geometric.hpp
+	"func_geometric.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_geometric.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_matrix.hpp
+	"func_matrix.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_matrix.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_vector_relational.inl
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_integer.hpp
+	"func_integer.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_integer.inl
+	<intrin.h>
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_noise.hpp
+	"func_noise.inl"
+
+1383996846 d:\dokument\programmering\raytracerzz\raytracerzz\lib\glm\glm\core\func_noise.inl
+
+1414422646 source:/Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/main.cpp
+	<iostream>
+	"lib/glm/glm/glm.hpp"
+	"include/Camera.h"
+	"include/Scene.h"
+	"include/Rectangle.h"
+	"include/Cube.h"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/_fixes.hpp
+	<cmath>
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/_vectorize.hpp
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_half.inl
+	"_detail.hpp"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_gentype.hpp
+	"type_size.hpp"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_size.hpp
+	<cstdlib>
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_vec.hpp
+	"type_gentype.hpp"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/_swizzle_func.hpp
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_vec1.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_vec2.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_vec3.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_vec4.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat.hpp
+	"type_gentype.hpp"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat2x2.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat2x3.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat2x4.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat3x2.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat3x3.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat3x4.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat4x2.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat4x3.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/type_mat4x4.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_trigonometric.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_exponential.hpp
+	"func_exponential.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_exponential.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_common.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_packing.hpp
+	"func_packing.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_packing.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_geometric.hpp
+	"func_geometric.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_geometric.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_matrix.hpp
+	"func_matrix.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_matrix.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_vector_relational.inl
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_integer.hpp
+	"func_integer.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_integer.inl
+	<intrin.h>
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_noise.hpp
+	"func_noise.inl"
+
+1413796451 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/lib/glm/glm/core/func_noise.inl
+
+1414400516 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/include/Camera.h
+	"../lib/glm/glm/glm.hpp"
+
+1414321373 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/include/Scene.h
+	<vector>
+
+1414420477 source:/Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/src/Camera.cpp
+	"../include/Camera.h"
+	"../include/Pixel.h"
+	"../include/Scene.h"
+	<iostream>
+	<fstream>
+	<algorithm>
+
+1414409804 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/include/Pixel.h
+	<vector>
+	"../lib/glm/glm/glm.hpp"
+
+1414419853 source:/Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/src/Cube.cpp
+	"../include/Cube.h"
+	"../include/SceneObject.h"
+	"../include/Rectangle.h"
+	"../include/Ray.h"
+	<iostream>
+
+1414408406 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/include/Cube.h
+	"../include/SceneObject.h"
+	<vector>
+
+1414406090 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/include/SceneObject.h
+	"../lib/glm/glm/glm.hpp"
+
+1414406209 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/include/Rectangle.h
+	"../lib/glm/glm/glm.hpp"
+	"../include/SceneObject.h"
+
+1414405457 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/include/Ray.h
+	"../lib/glm/glm/glm.hpp"
+
+1413971799 source:/Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/src/Light.cpp
+	"../include/Light.h"
+
+1413971852 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/include/Light.h
+	"../lib/glm/glm/glm.hpp"
+
+1414416332 source:/Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/src/Pixel.cpp
+	"../include/Pixel.h"
+	"../include/Ray.h"
+	"../include/Scene.h"
+	"../include/SceneObject.h"
+	<iostream>
+
+1414405473 source:/Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/src/Ray.cpp
+	"../include/Ray.h"
+
+1414406222 source:/Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/src/Rectangle.cpp
+	"../include/Rectangle.h"
+	"../include/Ray.h"
+	<iostream>
+
+1414327858 source:/Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/src/Scene.cpp
+	"../include/Scene.h"
+	"../include/SceneObject.h"
+	"../include/Light.h"
+
+1413973750 source:/Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/src/SceneObject.cpp
+	"../include/SceneObject.h"
+
+1414407543 source:/Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/src/Sphere.cpp
+	"../include/Sphere.h"
+
+1414406191 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/include/Sphere.h
+	<vector>
+	"../lib/glm/glm/glm.hpp"
+	"../include/Ray.h"
+
+1414407715 source:/Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/src/Wall.cpp
+	"../include/Wall.h"
+	"../include/Ray.h"
+
+1414407704 /Users/albintornqvist/Documents/GitHub/Raytracerzz/Raytracerzz/include/Wall.h
+	"../include/SceneObject.h"
+
+1414504938 source:c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\main.cpp
+	<iostream>
+	"lib/glm/glm/glm.hpp"
+	"include/Camera.h"
+	"include/Scene.h"
+	"include/Rectangle.h"
+	"include/Cube.h"
+	"include/Sphere.h"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\glm.hpp
+	"core/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cstdio>
+	"core/setup.hpp"
+	"./core/_detail.hpp"
+	"./core/_vectorize.hpp"
+	"./core/type.hpp"
+	"./core/func_trigonometric.hpp"
+	"./core/func_exponential.hpp"
+	"./core/func_common.hpp"
+	"./core/func_packing.hpp"
+	"./core/func_geometric.hpp"
+	"./core/func_matrix.hpp"
+	"./core/func_vector_relational.hpp"
+	"./core/func_integer.hpp"
+	"./core/func_noise.hpp"
+	"./core/_swizzle.hpp"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\_fixes.hpp
+	<cmath>
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\setup.hpp
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\_detail.hpp
+	"setup.hpp"
+	<cassert>
+	<cstdint>
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\_vectorize.hpp
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type.hpp
+	"type_half.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_gentype.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat2x2.hpp"
+	"type_mat2x3.hpp"
+	"type_mat2x4.hpp"
+	"type_mat3x2.hpp"
+	"type_mat3x3.hpp"
+	"type_mat3x4.hpp"
+	"type_mat4x2.hpp"
+	"type_mat4x3.hpp"
+	"type_mat4x4.hpp"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_half.hpp
+	<cstdlib>
+	"type_half.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_half.inl
+	"_detail.hpp"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_float.hpp
+	"type_half.hpp"
+	"setup.hpp"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_int.hpp
+	"setup.hpp"
+	"_detail.hpp"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_gentype.hpp
+	"type_size.hpp"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_size.hpp
+	<cstdlib>
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec1.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec1.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec.hpp
+	"type_gentype.hpp"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\_swizzle.hpp
+	"_swizzle_func.hpp"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\_swizzle_func.hpp
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec1.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec2.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec2.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec2.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec3.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec3.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec3.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec4.hpp
+	"type_vec.hpp"
+	"type_float.hpp"
+	"type_int.hpp"
+	"type_size.hpp"
+	"_swizzle.hpp"
+	"type_vec4.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_vec4.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x2.hpp
+	"type_mat.hpp"
+	"type_mat2x2.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat.hpp
+	"type_gentype.hpp"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x2.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x3.hpp
+	"type_mat.hpp"
+	"type_mat2x3.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x3.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x4.hpp
+	"type_mat.hpp"
+	"type_mat2x4.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat2x4.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x2.hpp
+	"type_mat.hpp"
+	"type_mat3x2.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x2.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x3.hpp
+	"type_mat.hpp"
+	"type_mat3x3.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x3.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x4.hpp
+	"type_mat.hpp"
+	"type_mat3x4.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat3x4.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x2.hpp
+	"type_mat.hpp"
+	"type_mat4x2.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x2.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x3.hpp
+	"type_mat.hpp"
+	"type_mat4x3.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x3.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x4.hpp
+	"type_mat.hpp"
+	"type_mat4x4.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\type_mat4x4.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_trigonometric.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_exponential.hpp
+	"func_exponential.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_exponential.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_common.hpp
+	"_fixes.hpp"
+	"func_common.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_common.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_packing.hpp
+	"func_packing.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_packing.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_geometric.hpp
+	"func_geometric.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_geometric.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_matrix.hpp
+	"func_matrix.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_matrix.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_vector_relational.hpp
+	"_detail.hpp"
+	"func_vector_relational.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_vector_relational.inl
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_integer.hpp
+	"func_integer.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_integer.inl
+	<intrin.h>
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_noise.hpp
+	"func_noise.inl"
+
+1414486258 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\lib\glm\glm\core\func_noise.inl
+
+1414486257 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\include\camera.h
+	"../lib/glm/glm/glm.hpp"
+
+1414486257 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\include\scene.h
+	<vector>
+
+1414505407 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\include\rectangle.h
+	"../lib/glm/glm/glm.hpp"
+	"../include/SceneObject.h"
+
+1414486257 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\include\sceneobject.h
+	"../lib/glm/glm/glm.hpp"
+
+1414486257 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\include\cube.h
+	"../include/SceneObject.h"
+	<vector>
+
+1414489083 source:c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\src\camera.cpp
+	"../include/Camera.h"
+	"../include/Pixel.h"
+	"../include/Scene.h"
+	<iostream>
+	<fstream>
+	<algorithm>
+
+1414486257 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\include\pixel.h
+	<vector>
+	"../lib/glm/glm/glm.hpp"
+
+1414486259 source:c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\src\cube.cpp
+	"../include/Cube.h"
+	"../include/SceneObject.h"
+	"../include/Rectangle.h"
+	"../include/Ray.h"
+	<iostream>
+
+1414495676 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\include\ray.h
+	"../lib/glm/glm/glm.hpp"
+
+1414486259 source:c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\src\light.cpp
+	"../include/Light.h"
+
+1414486257 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\include\light.h
+	"../lib/glm/glm/glm.hpp"
+
+1414495676 source:c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\src\pixel.cpp
+	"../include/Pixel.h"
+	"../include/Ray.h"
+	"../include/Scene.h"
+	"../include/SceneObject.h"
+	<iostream>
+
+1414495676 source:c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\src\ray.cpp
+	"../include/Ray.h"
+	"../include/Scene.h"
+	"../include/SceneObject.h"
+
+1414505367 source:c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\src\rectangle.cpp
+	"../include/Rectangle.h"
+	"../include/Ray.h"
+	<iostream>
+
+1414486259 source:c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\src\scene.cpp
+	"../include/Scene.h"
+	"../include/SceneObject.h"
+	"../include/Light.h"
+
+1414486259 source:c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\src\sceneobject.cpp
+	"../include/SceneObject.h"
+
+1414505278 source:c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\src\sphere.cpp
+	"../include/Sphere.h"
+	"../include/Ray.h"
+	<iostream>
+	<cmath>
+
+1414506593 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\include\sphere.h
+	<vector>
+	"../lib/glm/glm/glm.hpp"
+	"../include/SceneObject.h"
+
+1414486259 source:c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\src\wall.cpp
+	"../include/Wall.h"
+	"../include/Ray.h"
+
+1414486257 c:\users\albär\documents\github\raytracerzz\raytracerzz\raytracerzz\include\wall.h
+	"../include/SceneObject.h"
+
